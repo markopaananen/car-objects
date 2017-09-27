@@ -2,31 +2,31 @@
 //using System.Collections.Generic;
 //using System.Text;
 
-namespace carobjects
+namespace car-objects
 {
     class Program
     {
         public static void Main(string[] args)
         {
             // Create a new instance of the Car class with the default constructor
-            Car rotisko = new Car();
-            Console.WriteLine(rotisko.ToString());
+            Car kaara = new Car();
+            Console.WriteLine(kaara.ToString());
             Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
 
             // Show data for the instance
             Console.Clear();
-            rotisko.ShowData();
+            kaara.ShowData();
 
             // Clear the console and accelerate by 20 kph and show data
             Console.Clear();
-            rotisko.Accelerate(20);
-            rotisko.ShowData();
+            kaara.Accelerate(20);
+            kaara.ShowData();
 
             // Clear the console and decelerate by 10 % and show data
             Console.Clear();
-            rotisko.Decelerate();
-            rotisko.ShowData();
+            kaara.Decelerate();
+            kaara.ShowData();
 
             // Clear the screen and prompt user for input
             Console.Clear();

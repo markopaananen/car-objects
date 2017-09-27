@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace carobjects
+namespace car-objects
 {
     // Declare a new class
     class Car
